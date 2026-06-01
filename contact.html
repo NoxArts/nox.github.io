@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOX | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html" aria-label="NOX Home">
+      <img class="brand-logo" src="images/nox-logo.png" alt="NOX Digital Illustrator logo">
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="commissions.html">Commissions</a>
+      <a href="ych.html">YCHs</a>
+      <a href="tos.html">TOS</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section class="page-title">
+  <div class="kicker">Order & links</div>
+  <h1>Contact NOX</h1>
+  <p></p>
+</section>
+
+<section class="section">
+  <div class="grid-2">
+    <div class="form-card">
+      <h2>Request form</h2>
+      <p>
+      <form id="discordForm">
+        <div class="form-grid">
+          <div class="form-row"><label>Name</label><input class="input" name="name" placeholder="Your name" required></div>
+          <div class="form-row"><label>Social/contact</label><input class="input" name="social" placeholder="@username / email / discord" required></div>
+          <div class="form-row"><label>Type</label><select name="type"><option>Commission</option><option>YCH</option><option>Adopt</option><option>Custom Design</option></select></div>
+          <div class="form-row"><label>Budget</label><input class="input" name="budget" placeholder="$"></div>
+          <div class="form-row full"><label>Deadline</label><input class="input" name="deadline" placeholder="No deadline / date"></div>
+          <div class="form-row full"><label>Request</label><textarea name="message" placeholder="Describe your idea and paste reference links"></textarea></div>
+        </div>
+        <button class="btn primary" type="submit">
+Send to Discord
+</button>
+
+<p class="mini" id="discordStatus"></p>
+      </form>
+    </div>
+
+    <div class="form-card">
+      <h2>Links</h2>
+      <p>
+      <div class="btns">
+        <a class="btn primary" href="#">VGen</a>
+        <a class="btn" href="#">Toyhouse</a>
+        <a class="btn" href="#">Instagram</a>
+        <a class="btn" href="#">Twitter/X</a>
+        <a class="btn" href="#">Discord</a>
+        <a class="btn" href="#">Ko-fi</a>
+        <a class="btn" href="#">Carrd</a>
+        <a class="btn" href="#">Email</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/nox-logo.png" alt="NOX Digital Illustrator logo">
+      <p>Moonlit anime art, adopts, commissions and YCHs.</p>
+    </div>
+    <div class="footer-links">
+      <a href="portfolio.html">Portfolio</a>
+      <a href="commissions.html">Commissions</a>
+      <a href="ych.html">YCHs</a>
+      <a href="tos.html">TOS</a>
+    </div>
+  </div>
+  <div class="copyright">© <span id="year"></span> NOX. All rights reserved.</div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose">×</button>
+  <img id="lightboxImg" alt="Expanded artwork">
+  <p id="lightboxCaption"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

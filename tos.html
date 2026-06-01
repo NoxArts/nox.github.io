@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOX | TOS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html" aria-label="NOX Home">
+      <img class="brand-logo" src="images/nox-logo.png" alt="NOX Digital Illustrator logo">
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="commissions.html">Commissions</a>
+      <a href="ych.html">YCHs</a>
+      <a href="tos.html">TOS</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section class="page-title">
+  <div class="kicker">Terms of Service</div>
+  <h1>TOS</h1>
+  <p class="lead">Terms for commissions, YCHs and adopts.</p>
+
+  
+<section class="section">
+  <div class="tos-grid">
+    <div class="tos-box days-card">
+     <div class="kicker">Schedule</div>
+<h2>Working Days & Brasília Time</h2>
+
+<div class="brasilia-clock">
+    <span class="clock-label">🇧🇷 Brasília Time</span>
+    <span id="brasiliaClock">00:00:00</span>
+</div>
+      <p>These are my usual working days. Messages can be answered outside this schedule, but art progress follows these hours.</p>
+      <div class="days-grid">
+        <div class="day"><strong>Monday</strong><span>13h - 17h</span></div>
+        <div class="day"><strong>Tuesday</strong><span>13h - 17h</span></div>
+        <div class="day"><strong>Wednesday</strong><span>13h - 17h</span></div>
+        <div class="day"><strong>Thursday</strong><span>13h - 17h</span></div>
+        <div class="day"><strong>Friday</strong><span>13h - 17h</span></div>
+        <div class="day limited"><strong>Saturday</strong><span>Off</span></div>
+        <div class="day closed"><strong>Sunday</strong><span>Off</span></div>
+      </div>
+    </div>
+
+    <div class="tos-box"><h3>General</h3><ul><li>By commissioning me, you agree to these terms.</li><li>I have the right to decline a request if I am not comfortable with it.</li><li>The client must provide clear references and information before I start.</li></ul></div>
+    <div class="tos-box"><h3>Payment</h3><ul><li>Payment method: PayPal only.</li><li>Payment can be full upfront or split depending on the commission type. Edit this rule.</li><li>Work starts after payment confirmation.</li></ul></div>
+    <div class="tos-box"><h3>Refunds</h3><ul><li>Refunds are available only before work has started. Edit if needed.</li><li>No full refund after sketch approval.</li><li>If I cancel the commission, the client will receive a refund for unfinished work.</li></ul></div>
+    <div class="tos-box"><h3>Process</h3><ul><li>Client sends references, pose ideas, character notes and desired commission type.</li><li>I send sketch/WIP for approval when applicable.</li><li>Major changes must be requested during the sketch stage.</li></ul></div>
+    <div class="tos-box"><h3>Revisions</h3><ul><li>Small corrections are allowed during the process.</li><li>Large changes after approval may require an extra fee.</li><li>Revision limit: edit here.</li></ul></div>
+    <div class="tos-box"><h3>Delivery</h3><ul><li>Estimated TAT: edit here.</li><li>Complex commissions may take longer.</li><li>Final files are delivered as PNG/JPG unless agreed otherwise.</li></ul></div>
+    <div class="tos-box"><h3>Usage Rights</h3><ul><li>Personal use is allowed.</li><li>Commercial use must be discussed and paid separately.</li><li>Do not claim my artwork as your own.</li><li>Credit NOX when posting if possible.</li></ul></div>
+    <div class="tos-box"><h3>Do Not</h3><ul><li>Do not remove my signature/watermark.</li><li>Do not resell the artwork itself unless commercial rights were purchased.</li><li>Do not use my artwork for AI training, NFT or blockchain projects.</li></ul></div>
+    <div class="tos-box"><h3>I Will Not Draw</h3><ul><li>Mecha.</li><li>Elderly characters / older people.</li><li>Anything I am uncomfortable with.</li><li>Add more limits here.</li></ul></div>
+    <div class="tos-box"><h3>Adopts & YCHs</h3><ul><li>Adopt ownership transfers after full payment.</li><li>YCHs follow their own pose/base limitations.</li><li>Resale, trade and gift rules: </li></ul></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/nox-logo.png" alt="NOX Digital Illustrator logo">
+      <p>Moonlit anime art, adopts, commissions and YCHs.</p>
+    </div>
+    <div class="footer-links">
+      <a href="portfolio.html">Portfolio</a>
+      <a href="commissions.html">Commissions</a>
+      <a href="ych.html">YCHs</a>
+      <a href="tos.html">TOS</a>
+    </div>
+  </div>
+  <div class="copyright">© <span id="year"></span> NOX. All rights reserved.</div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose">×</button>
+  <img id="lightboxImg" alt="Expanded artwork">
+  <p id="lightboxCaption"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

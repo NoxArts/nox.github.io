@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOX | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html" aria-label="NOX Home">
+      <img class="brand-logo" src="images/nox-logo.png" alt="NOX Digital Illustrator logo">
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="commissions.html">Commissions</a>
+      <a href="ych.html">YCHs</a>
+      <a href="tos.html">TOS</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="hero-center">
+    <div class="kicker">Anime artist · adopts · commissions · ychs</div>
+    <h1>NOX</h1>
+    <p class="lead">Celestial anime art inspired by moonlight, stars, and fantasy worlds. Creating commissions, adopts, and YCHs with passion, detail, and a touch of magic. Remember: By purchasing a commission from me, you confirm that you have read and agreed to my Terms of Service (TOS). ✨ </p>
+    <div class="btns">
+      <a class="btn primary" href="commissions.html">View Commissions</a>
+      <a class="btn" href="portfolio.html">Open Portfolio</a>
+      <a class="btn ghost" href="ych.html">See YCHs</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>+50</strong><small>Portfolio arts</small></div>
+      <div class="stat"><strong>+200</strong><small>Commission finishes</small></div>
+      <div class="stat"><strong>+20</strong><small>YCH options</small></div>
+      <div class="stat"><strong>★ 5.0</strong><small>VGen rating</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="platform-grid">
+  <a class="link-card" href="#"><strong>VGen</strong><span>Reviews, queue and commission profile</span></a>
+  <a class="link-card" href="#"><strong>Toyhouse</strong><span>Characters, adopts and designs</span></a>
+  <a class="link-card" href="#"><strong>Instagram</strong><span>Art posts and updates</span></a>
+  <a class="link-card" href="#"><strong>Twitter/X</strong><span>Announcements and interaction</span></a>
+  <a class="link-card" href="#"><strong>Discord</strong><span>Contact and commission talk</span></a>
+  <a class="link-card" href="#"><strong>Ko-fi</strong><span>Support and small orders</span></a>
+  <a class="link-card" href="#"><strong>Facebook</strong><span>Old links and extra info</span></a>
+  <a class="link-card" href="contact.html"><strong>Contact</strong><span>Request form and social links</span></a>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Featured</div>
+      <h2>Recent works</h2>
+    </div>
+    <a class="btn" href="portfolio.html">See all</a>
+  </div>
+  <div class="scroll-gallery auto-scroll">
+    <div class="art-slot"><span>Featured<br>Slot 1</span><small>/images/featured-1.png</small></div>
+    <div class="art-slot"><span>Featured<br>Slot 2</span><small>/images/featured-2.png</small></div>
+    <div class="art-slot"><span>Featured<br>Slot 3</span><small>/images/featured-3.png</small></div>
+    <div class="art-slot"><span>Featured<br>Slot 4</span><small>/images/featured-4.png</small></div>
+    <div class="art-slot"><span>Featured<br>Slot 5</span><small>/images/featured-5.png</small></div>
+    <div class="art-slot"><span>Featured<br>Slot 6</span><small>/images/featured-6.png</small></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/nox-logo.png" alt="NOX Digital Illustrator logo">
+      <p>Moonlit anime art, adopts, commissions and YCHs.</p>
+    </div>
+    <div class="footer-links">
+      <a href="portfolio.html">Portfolio</a>
+      <a href="commissions.html">Commissions</a>
+      <a href="ych.html">YCHs</a>
+      <a href="tos.html">TOS</a>
+    </div>
+  </div>
+  <div class="copyright">© <span id="year"></span> NOX. All rights reserved.</div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose">×</button>
+  <img id="lightboxImg" alt="Expanded artwork">
+  <p id="lightboxCaption"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
